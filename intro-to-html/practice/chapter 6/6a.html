@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        display: block;
+        margin: 10px;
+        padding: 5px 5px;
+      }
+      .info {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      img {
+        width: 300px;
+        display: block;
+        margin-left: 200px;
+      }
+      .search {
+        width: 250px;
+        margin-left: 150px;
+        padding-right: 200px;
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 17px;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+      }
+
+      .ip1,
+      .ip2 {
+        display: inline-block;
+        padding: 10px 15px;
+        width: 130px;
+        border-radius: 6px;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+        font-size: 16px;
+        color: gray;
+      }
+      .ip3 {
+        width: 318px;
+        padding: 10px 15px;
+        font-size: 16px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        margin-bottom: 15px;
+      }
+
+      .signup-btn {
+        background-color: rgb(47, 89, 226);
+        color: white;
+        padding: 13px 150px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: bold;
+        display: block;
+      }
+
+      .title {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 7px;
+      }
+      .ip4,
+      .ip5 {
+        width: 300px;
+        margin-left: 0px;
+        padding: 13px;
+        font-size: 16px;
+        background-color: rgb(241, 239, 239);
+        color: rgb(93, 93, 93);
+        border: none;
+        border-radius: 5px;
+      }
+
+      .request-btn{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+      }
+      .schedule-btn{
+        color: black;
+        background-color: rgb(241, 239, 239);
+        border: none;
+        padding: 12px 23px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="Name" />
+    <input type="text" placeholder="Email" />
+
+    <p class="info">
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey.
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+
+    <img src="google-logo.png" alt="" />
+    <input
+      type="text"
+      class="search"
+      placeholder="Search Google or type a URL"
+    />
+
+    <input type="text" class="ip1" placeholder="First name" />
+    <input type="text" class="ip2" placeholder="Last name" />
+    <input type="text" class="ip3" placeholder="Email" />
+    <button class="signup-btn">Sign Up</button>
+
+    <p class="title">Request a ride now</p>
+    <input type="text" class="ip4" placeholder="Enter pickup location" />
+    <input type="text" class="ip5" placeholder="Enter destination" />
+
+    <button class="request-btn">Request now</button>
+    <button class="schedule-btn">Schedule for later</button>
+  </body>
+</html>
